@@ -1,0 +1,78 @@
+column,group,normalized_rank,top1_rate,top3_rate
+halfsum,Overall,0.43,0.06,0.27
+instruct,Overall,0.31,0.01,0.12
+k_lora,Overall,0.57,0.09,0.48
+reflective_augmented_more,Overall,0.53,0.1,0.43
+style_instruct,Overall,0.52,0.08,0.41
+super_baseline,Overall,0.79,0.38,0.76
+theme_instruct,Overall,0.32,0.05,0.19
+halfsum,"(1-25) Style, Theme",0.64,0.2,0.48
+instruct,"(1-25) Style, Theme",0.17,0.0,0.04
+k_lora,"(1-25) Style, Theme",0.74,0.04,0.72
+reflective_augmented_more,"(1-25) Style, Theme",0.39,0.08,0.16
+style_instruct,"(1-25) Style, Theme",0.55,0.16,0.48
+super_baseline,"(1-25) Style, Theme",0.73,0.0,0.72
+theme_instruct,"(1-25) Style, Theme",0.23,0.04,0.08
+halfsum,"(26-50) not Style, Theme",0.49,0.04,0.36
+instruct,"(26-50) not Style, Theme",0.24,0.0,0.12
+k_lora,"(26-50) not Style, Theme",0.69,0.2,0.68
+reflective_augmented_more,"(26-50) not Style, Theme",0.4,0.04,0.32
+style_instruct,"(26-50) not Style, Theme",0.37,0.0,0.08
+super_baseline,"(26-50) not Style, Theme",0.79,0.52,0.76
+theme_instruct,"(26-50) not Style, Theme",0.49,0.12,0.56
+halfsum,"(51-75) Style, not Theme",0.3,0.04,0.08
+instruct,"(51-75) Style, not Theme",0.33,0.0,0.0
+k_lora,"(51-75) Style, not Theme",0.74,0.0,0.72
+reflective_augmented_more,"(51-75) Style, not Theme",0.59,0.12,0.52
+style_instruct,"(51-75) Style, not Theme",0.49,0.08,0.36
+super_baseline,"(51-75) Style, not Theme",0.75,0.08,0.72
+theme_instruct,"(51-75) Style, not Theme",0.24,0.0,0.0
+halfsum,"(76-100) not Style, not Theme",0.37,0.0,0.24
+instruct,"(76-100) not Style, not Theme",0.33,0.0,0.08
+k_lora,"(76-100) not Style, not Theme",0.44,0.04,0.32
+reflective_augmented_more,"(76-100) not Style, not Theme",0.57,0.12,0.48
+style_instruct,"(76-100) not Style, not Theme",0.54,0.0,0.48
+super_baseline,"(76-100) not Style, not Theme",0.89,0.76,0.84
+theme_instruct,"(76-100) not Style, not Theme",0.37,0.08,0.2
+halfsum,(101+) General,0.39,0.02,0.23
+instruct,(101+) General,0.4,0.02,0.25
+k_lora,(101+) General,0.37,0.14,0.18
+reflective_augmented_more,(101+) General,0.61,0.11,0.57
+style_instruct,(101+) General,0.59,0.14,0.55
+super_baseline,(101+) General,0.79,0.45,0.77
+theme_instruct,(101+) General,0.3,0.02,0.14
+halfsum,(1-50) Theme,0.57,0.12,0.42
+instruct,(1-50) Theme,0.21,0.0,0.08
+k_lora,(1-50) Theme,0.72,0.12,0.7
+reflective_augmented_more,(1-50) Theme,0.4,0.06,0.24
+style_instruct,(1-50) Theme,0.46,0.08,0.28
+super_baseline,(1-50) Theme,0.76,0.26,0.74
+theme_instruct,(1-50) Theme,0.36,0.08,0.32
+halfsum,(51+) no Theme,0.36,0.02,0.19
+instruct,(51+) no Theme,0.36,0.01,0.14
+k_lora,(51+) no Theme,0.49,0.07,0.36
+reflective_augmented_more,(51+) no Theme,0.6,0.12,0.53
+style_instruct,(51+) no Theme,0.55,0.09,0.48
+super_baseline,(51+) no Theme,0.8,0.44,0.78
+theme_instruct,(51+) no Theme,0.3,0.03,0.12
+halfsum,"(76+) no Theme, no Style, General",0.38,0.01,0.23
+instruct,"(76+) no Theme, no Style, General",0.37,0.01,0.19
+k_lora,"(76+) no Theme, no Style, General",0.4,0.1,0.23
+reflective_augmented_more,"(76+) no Theme, no Style, General",0.6,0.12,0.54
+style_instruct,"(76+) no Theme, no Style, General",0.57,0.09,0.52
+super_baseline,"(76+) no Theme, no Style, General",0.82,0.57,0.8
+theme_instruct,"(76+) no Theme, no Style, General",0.32,0.04,0.16
+halfsum,"(1-25, 51-75) Style",0.47,0.12,0.28
+instruct,"(1-25, 51-75) Style",0.25,0.0,0.02
+k_lora,"(1-25, 51-75) Style",0.74,0.02,0.72
+reflective_augmented_more,"(1-25, 51-75) Style",0.49,0.1,0.34
+style_instruct,"(1-25, 51-75) Style",0.52,0.12,0.42
+super_baseline,"(1-25, 51-75) Style",0.74,0.04,0.72
+theme_instruct,"(1-25, 51-75) Style",0.23,0.02,0.04
+halfsum,"(26-50, 76-100) no Style",0.43,0.02,0.3
+instruct,"(26-50, 76-100) no Style",0.28,0.0,0.1
+k_lora,"(26-50, 76-100) no Style",0.57,0.12,0.5
+reflective_augmented_more,"(26-50, 76-100) no Style",0.49,0.08,0.4
+style_instruct,"(26-50, 76-100) no Style",0.46,0.0,0.28
+super_baseline,"(26-50, 76-100) no Style",0.84,0.64,0.8
+theme_instruct,"(26-50, 76-100) no Style",0.43,0.1,0.38

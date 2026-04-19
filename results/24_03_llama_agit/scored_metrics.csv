@@ -1,0 +1,78 @@
+column,group,normalized_rank,top2_rate,top3_rate
+agitational_baseline_llama3,Overall,0.57,0.36,0.42
+agitational_halfsum_llama3,Overall,0.37,0.09,0.17
+agitational_instruct_llama3,Overall,0.43,0.2,0.26
+agitational_klora_llama3,Overall,0.48,0.3,0.36
+agitational_ours_llama3,Overall,0.64,0.49,0.56
+agitational_style_instruct_llama3,Overall,0.56,0.31,0.49
+agitational_theme_instruct_llama3,Overall,0.46,0.24,0.34
+agitational_baseline_llama3,"(1-25) Style, Theme",0.67,0.52,0.56
+agitational_halfsum_llama3,"(1-25) Style, Theme",0.51,0.2,0.4
+agitational_instruct_llama3,"(1-25) Style, Theme",0.25,0.04,0.04
+agitational_klora_llama3,"(1-25) Style, Theme",0.71,0.56,0.72
+agitational_ours_llama3,"(1-25) Style, Theme",0.53,0.36,0.48
+agitational_style_instruct_llama3,"(1-25) Style, Theme",0.42,0.12,0.24
+agitational_theme_instruct_llama3,"(1-25) Style, Theme",0.48,0.32,0.56
+agitational_baseline_llama3,"(26-50) not Style, Theme",0.65,0.48,0.56
+agitational_halfsum_llama3,"(26-50) not Style, Theme",0.38,0.12,0.24
+agitational_instruct_llama3,"(26-50) not Style, Theme",0.27,0.12,0.16
+agitational_klora_llama3,"(26-50) not Style, Theme",0.81,0.8,0.84
+agitational_ours_llama3,"(26-50) not Style, Theme",0.43,0.16,0.24
+agitational_style_instruct_llama3,"(26-50) not Style, Theme",0.39,0.08,0.32
+agitational_theme_instruct_llama3,"(26-50) not Style, Theme",0.59,0.4,0.48
+agitational_baseline_llama3,"(51-75) Style, not Theme",0.41,0.04,0.04
+agitational_halfsum_llama3,"(51-75) Style, not Theme",0.41,0.0,0.04
+agitational_instruct_llama3,"(51-75) Style, not Theme",0.47,0.12,0.12
+agitational_klora_llama3,"(51-75) Style, not Theme",0.39,0.0,0.0
+agitational_ours_llama3,"(51-75) Style, not Theme",0.83,0.76,0.76
+agitational_style_instruct_llama3,"(51-75) Style, not Theme",0.71,0.48,0.56
+agitational_theme_instruct_llama3,"(51-75) Style, not Theme",0.41,0.0,0.04
+agitational_baseline_llama3,"(76-100) not Style, not Theme",0.52,0.32,0.4
+agitational_halfsum_llama3,"(76-100) not Style, not Theme",0.31,0.08,0.08
+agitational_instruct_llama3,"(76-100) not Style, not Theme",0.51,0.24,0.32
+agitational_klora_llama3,"(76-100) not Style, not Theme",0.31,0.16,0.16
+agitational_ours_llama3,"(76-100) not Style, not Theme",0.69,0.52,0.56
+agitational_style_instruct_llama3,"(76-100) not Style, not Theme",0.61,0.36,0.64
+agitational_theme_instruct_llama3,"(76-100) not Style, not Theme",0.5,0.36,0.4
+agitational_baseline_llama3,(101+) General,0.57,0.41,0.5
+agitational_halfsum_llama3,(101+) General,0.29,0.07,0.11
+agitational_instruct_llama3,(101+) General,0.57,0.36,0.5
+agitational_klora_llama3,(101+) General,0.33,0.11,0.2
+agitational_ours_llama3,(101+) General,0.68,0.57,0.66
+agitational_style_instruct_llama3,(101+) General,0.64,0.41,0.59
+agitational_theme_instruct_llama3,(101+) General,0.39,0.18,0.27
+agitational_baseline_llama3,(1-50) Theme,0.66,0.5,0.56
+agitational_halfsum_llama3,(1-50) Theme,0.44,0.16,0.32
+agitational_instruct_llama3,(1-50) Theme,0.26,0.08,0.1
+agitational_klora_llama3,(1-50) Theme,0.76,0.68,0.78
+agitational_ours_llama3,(1-50) Theme,0.48,0.26,0.36
+agitational_style_instruct_llama3,(1-50) Theme,0.41,0.1,0.28
+agitational_theme_instruct_llama3,(1-50) Theme,0.53,0.36,0.52
+agitational_baseline_llama3,(51+) no Theme,0.52,0.29,0.35
+agitational_halfsum_llama3,(51+) no Theme,0.32,0.05,0.09
+agitational_instruct_llama3,(51+) no Theme,0.53,0.27,0.35
+agitational_klora_llama3,(51+) no Theme,0.34,0.1,0.14
+agitational_ours_llama3,(51+) no Theme,0.73,0.61,0.66
+agitational_style_instruct_llama3,(51+) no Theme,0.65,0.41,0.6
+agitational_theme_instruct_llama3,(51+) no Theme,0.42,0.18,0.24
+agitational_baseline_llama3,"(76+) no Theme, no Style, General",0.55,0.38,0.46
+agitational_halfsum_llama3,"(76+) no Theme, no Style, General",0.29,0.07,0.1
+agitational_instruct_llama3,"(76+) no Theme, no Style, General",0.55,0.32,0.43
+agitational_klora_llama3,"(76+) no Theme, no Style, General",0.32,0.13,0.19
+agitational_ours_llama3,"(76+) no Theme, no Style, General",0.69,0.55,0.62
+agitational_style_instruct_llama3,"(76+) no Theme, no Style, General",0.63,0.39,0.61
+agitational_theme_instruct_llama3,"(76+) no Theme, no Style, General",0.43,0.25,0.32
+agitational_baseline_llama3,"(1-25, 51-75) Style",0.54,0.28,0.3
+agitational_halfsum_llama3,"(1-25, 51-75) Style",0.46,0.1,0.22
+agitational_instruct_llama3,"(1-25, 51-75) Style",0.36,0.08,0.08
+agitational_klora_llama3,"(1-25, 51-75) Style",0.55,0.28,0.36
+agitational_ours_llama3,"(1-25, 51-75) Style",0.68,0.56,0.62
+agitational_style_instruct_llama3,"(1-25, 51-75) Style",0.57,0.3,0.4
+agitational_theme_instruct_llama3,"(1-25, 51-75) Style",0.44,0.16,0.3
+agitational_baseline_llama3,"(26-50, 76-100) no Style",0.58,0.4,0.48
+agitational_halfsum_llama3,"(26-50, 76-100) no Style",0.34,0.1,0.16
+agitational_instruct_llama3,"(26-50, 76-100) no Style",0.39,0.18,0.24
+agitational_klora_llama3,"(26-50, 76-100) no Style",0.56,0.48,0.5
+agitational_ours_llama3,"(26-50, 76-100) no Style",0.56,0.34,0.4
+agitational_style_instruct_llama3,"(26-50, 76-100) no Style",0.5,0.22,0.48
+agitational_theme_instruct_llama3,"(26-50, 76-100) no Style",0.54,0.38,0.44

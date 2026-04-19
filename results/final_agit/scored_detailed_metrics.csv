@@ -1,0 +1,78 @@
+column,group,mean_topic_rel,mean_style,mean_depth,mean_coherence,mean_score
+agitational_augmented_more,Overall,0.6759,0.5131,0.3603,0.4252,0.3645
+halfsum,Overall,0.469,0.5341,0.2659,0.3293,0.2611
+instruct,Overall,0.4069,0.349,0.1766,0.2666,0.1698
+k_lora,Overall,0.4483,0.6007,0.229,0.3841,0.2478
+style_instruct,Overall,0.7241,0.4476,0.419,0.421,0.3738
+super_baseline,Overall,0.7034,0.7369,0.3669,0.5524,0.4597
+theme_instruct,Overall,0.4414,0.6093,0.1966,0.3786,0.2487
+agitational_augmented_more,"(1-25) Style, Theme",0.84,0.62,0.448,0.562,0.4953
+halfsum,"(1-25) Style, Theme",0.96,0.676,0.512,0.672,0.6027
+instruct,"(1-25) Style, Theme",0.76,0.448,0.35,0.436,0.354
+k_lora,"(1-25) Style, Theme",0.88,0.694,0.44,0.63,0.532
+style_instruct,"(1-25) Style, Theme",1.0,0.526,0.58,0.588,0.5647
+super_baseline,"(1-25) Style, Theme",1.0,0.818,0.472,0.728,0.6727
+theme_instruct,"(1-25) Style, Theme",0.64,0.704,0.294,0.534,0.3987
+agitational_augmented_more,"(26-50) not Style, Theme",0.84,0.512,0.416,0.482,0.43
+halfsum,"(26-50) not Style, Theme",1.0,0.414,0.54,0.51,0.488
+instruct,"(26-50) not Style, Theme",0.68,0.31,0.276,0.306,0.2573
+k_lora,"(26-50) not Style, Theme",0.92,0.528,0.424,0.532,0.472
+style_instruct,"(26-50) not Style, Theme",0.96,0.39,0.554,0.486,0.4673
+super_baseline,"(26-50) not Style, Theme",0.84,0.704,0.428,0.63,0.538
+theme_instruct,"(26-50) not Style, Theme",0.72,0.566,0.328,0.49,0.3853
+agitational_augmented_more,"(51-75) Style, not Theme",0.44,0.492,0.282,0.354,0.2393
+halfsum,"(51-75) Style, not Theme",0.0,0.618,0.0,0.036,0.0
+instruct,"(51-75) Style, not Theme",0.12,0.344,0.044,0.2,0.048
+k_lora,"(51-75) Style, not Theme",0.0,0.644,0.028,0.16,0.0
+style_instruct,"(51-75) Style, not Theme",0.32,0.496,0.18,0.252,0.1667
+super_baseline,"(51-75) Style, not Theme",0.08,0.72,0.044,0.176,0.0573
+theme_instruct,"(51-75) Style, not Theme",0.08,0.604,0.028,0.198,0.044
+agitational_augmented_more,"(76-100) not Style, not Theme",0.68,0.472,0.36,0.394,0.354
+halfsum,"(76-100) not Style, not Theme",0.28,0.468,0.204,0.328,0.1667
+instruct,"(76-100) not Style, not Theme",0.32,0.342,0.158,0.252,0.1373
+k_lora,"(76-100) not Style, not Theme",0.32,0.552,0.212,0.396,0.1733
+style_instruct,"(76-100) not Style, not Theme",0.8,0.412,0.464,0.422,0.4087
+super_baseline,"(76-100) not Style, not Theme",0.76,0.742,0.434,0.608,0.4987
+theme_instruct,"(76-100) not Style, not Theme",0.4,0.554,0.194,0.404,0.212
+agitational_augmented_more,(101+) General,0.6222,0.4889,0.3244,0.3744,0.3307
+halfsum,(101+) General,0.2667,0.5122,0.1589,0.2022,0.143
+instruct,(101+) General,0.2667,0.3222,0.1089,0.1956,0.1044
+k_lora,(101+) General,0.2667,0.5922,0.1244,0.2833,0.1444
+style_instruct,(101+) General,0.6222,0.4289,0.3622,0.3856,0.3115
+super_baseline,(101+) General,0.7778,0.7167,0.4167,0.59,0.4996
+theme_instruct,(101+) General,0.4,0.6144,0.1644,0.3167,0.2237
+agitational_augmented_more,(1-50) Theme,0.84,0.566,0.432,0.522,0.4627
+halfsum,(1-50) Theme,0.98,0.545,0.526,0.591,0.5453
+instruct,(1-50) Theme,0.72,0.379,0.313,0.371,0.3057
+k_lora,(1-50) Theme,0.9,0.611,0.432,0.581,0.502
+style_instruct,(1-50) Theme,0.98,0.458,0.567,0.537,0.516
+super_baseline,(1-50) Theme,0.92,0.761,0.45,0.679,0.6053
+theme_instruct,(1-50) Theme,0.68,0.635,0.311,0.512,0.392
+agitational_augmented_more,(51+) no Theme,0.5895,0.4853,0.3226,0.3742,0.3128
+halfsum,(51+) no Theme,0.2,0.5284,0.1289,0.1916,0.1116
+instruct,(51+) no Theme,0.2421,0.3332,0.1047,0.2116,0.0982
+k_lora,(51+) no Theme,0.2105,0.5953,0.1221,0.2805,0.114
+style_instruct,(51+) no Theme,0.5895,0.4421,0.3411,0.36,0.2989
+super_baseline,(51+) no Theme,0.5895,0.7242,0.3232,0.4858,0.383
+theme_instruct,(51+) no Theme,0.3158,0.5958,0.1363,0.3084,0.1733
+agitational_augmented_more,"(76+) no Theme, no Style, General",0.6429,0.4829,0.3371,0.3814,0.339
+halfsum,"(76+) no Theme, no Style, General",0.2714,0.4964,0.175,0.2471,0.1514
+instruct,"(76+) no Theme, no Style, General",0.2857,0.3293,0.1264,0.2157,0.1162
+k_lora,"(76+) no Theme, no Style, General",0.2857,0.5779,0.1557,0.3236,0.1548
+style_instruct,"(76+) no Theme, no Style, General",0.6857,0.4229,0.3986,0.3986,0.3462
+super_baseline,"(76+) no Theme, no Style, General",0.7714,0.7257,0.4229,0.5964,0.4993
+theme_instruct,"(76+) no Theme, no Style, General",0.4,0.5929,0.175,0.3479,0.2195
+agitational_augmented_more,"(1-25, 51-75) Style",0.64,0.556,0.365,0.458,0.3673
+halfsum,"(1-25, 51-75) Style",0.48,0.647,0.256,0.354,0.3013
+instruct,"(1-25, 51-75) Style",0.44,0.396,0.197,0.318,0.201
+k_lora,"(1-25, 51-75) Style",0.44,0.669,0.234,0.395,0.266
+style_instruct,"(1-25, 51-75) Style",0.66,0.511,0.38,0.42,0.3657
+super_baseline,"(1-25, 51-75) Style",0.54,0.769,0.258,0.452,0.365
+theme_instruct,"(1-25, 51-75) Style",0.36,0.654,0.161,0.366,0.2213
+agitational_augmented_more,"(26-50, 76-100) no Style",0.76,0.492,0.388,0.438,0.392
+halfsum,"(26-50, 76-100) no Style",0.64,0.441,0.372,0.419,0.3273
+instruct,"(26-50, 76-100) no Style",0.5,0.326,0.217,0.279,0.1973
+k_lora,"(26-50, 76-100) no Style",0.62,0.54,0.318,0.464,0.3227
+style_instruct,"(26-50, 76-100) no Style",0.88,0.401,0.509,0.454,0.438
+super_baseline,"(26-50, 76-100) no Style",0.8,0.723,0.431,0.619,0.5183
+theme_instruct,"(26-50, 76-100) no Style",0.56,0.56,0.261,0.447,0.2987

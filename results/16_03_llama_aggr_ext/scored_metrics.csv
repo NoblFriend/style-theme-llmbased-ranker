@@ -1,0 +1,45 @@
+column,group,normalized_rank,top2_rate,top3_rate
+aggr_astroph,Overall,0.47,0.53,0.67
+aggr_astroph_less,Overall,0.41,0.44,0.61
+aggr_ext_astroph,Overall,0.54,0.58,0.78
+aggr_ext_astroph_less,Overall,0.52,0.53,0.76
+aggr_astroph,"(1-25) Style, Theme",0.4,0.44,0.64
+aggr_astroph_less,"(1-25) Style, Theme",0.36,0.4,0.6
+aggr_ext_astroph,"(1-25) Style, Theme",0.51,0.56,0.72
+aggr_ext_astroph_less,"(1-25) Style, Theme",0.69,0.72,0.92
+aggr_astroph,"(26-50) not Style, Theme",0.47,0.56,0.6
+aggr_astroph_less,"(26-50) not Style, Theme",0.4,0.48,0.64
+aggr_ext_astroph,"(26-50) not Style, Theme",0.59,0.72,0.8
+aggr_ext_astroph_less,"(26-50) not Style, Theme",0.45,0.4,0.76
+aggr_astroph,"(51-75) Style, not Theme",0.61,0.68,0.8
+aggr_astroph_less,"(51-75) Style, not Theme",0.41,0.44,0.64
+aggr_ext_astroph,"(51-75) Style, not Theme",0.41,0.44,0.68
+aggr_ext_astroph_less,"(51-75) Style, not Theme",0.47,0.44,0.68
+aggr_astroph,"(76-100) not Style, not Theme",0.37,0.4,0.56
+aggr_astroph_less,"(76-100) not Style, not Theme",0.39,0.36,0.64
+aggr_ext_astroph,"(76-100) not Style, not Theme",0.63,0.68,0.84
+aggr_ext_astroph_less,"(76-100) not Style, not Theme",0.6,0.68,0.84
+aggr_astroph,(101+) General,0.48,0.55,0.73
+aggr_astroph_less,(101+) General,0.45,0.48,0.57
+aggr_ext_astroph,(101+) General,0.55,0.55,0.84
+aggr_ext_astroph_less,(101+) General,0.44,0.45,0.68
+aggr_astroph,(1-50) Theme,0.43,0.5,0.62
+aggr_astroph_less,(1-50) Theme,0.38,0.44,0.62
+aggr_ext_astroph,(1-50) Theme,0.55,0.64,0.76
+aggr_ext_astroph_less,(1-50) Theme,0.57,0.56,0.84
+aggr_astroph,(51+) no Theme,0.49,0.54,0.7
+aggr_astroph_less,(51+) no Theme,0.42,0.44,0.61
+aggr_ext_astroph,(51+) no Theme,0.54,0.55,0.8
+aggr_ext_astroph_less,(51+) no Theme,0.49,0.51,0.72
+aggr_astroph,"(76+) no Theme, no Style, General",0.44,0.49,0.67
+aggr_astroph_less,"(76+) no Theme, no Style, General",0.43,0.43,0.59
+aggr_ext_astroph,"(76+) no Theme, no Style, General",0.58,0.59,0.84
+aggr_ext_astroph_less,"(76+) no Theme, no Style, General",0.5,0.54,0.74
+aggr_astroph,"(1-25, 51-75) Style",0.51,0.56,0.72
+aggr_astroph_less,"(1-25, 51-75) Style",0.39,0.42,0.62
+aggr_ext_astroph,"(1-25, 51-75) Style",0.46,0.5,0.7
+aggr_ext_astroph_less,"(1-25, 51-75) Style",0.58,0.58,0.8
+aggr_astroph,"(26-50, 76-100) no Style",0.42,0.48,0.58
+aggr_astroph_less,"(26-50, 76-100) no Style",0.39,0.42,0.64
+aggr_ext_astroph,"(26-50, 76-100) no Style",0.61,0.7,0.82
+aggr_ext_astroph_less,"(26-50, 76-100) no Style",0.53,0.54,0.8

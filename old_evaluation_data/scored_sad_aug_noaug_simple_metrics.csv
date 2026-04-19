@@ -1,0 +1,13 @@
+column,group,normalized_rank,top1_rate,top3_rate
+ours_augmented,Overall,0.5,0.5,1.0
+sad_no_augment,Overall,0.45,0.45,1.0
+ours_augmented,Group_1_rows_1_25,0.32,0.32,1.0
+sad_no_augment,Group_1_rows_1_25,0.56,0.56,1.0
+ours_augmented,Group_2_rows_26_50,0.44,0.44,1.0
+sad_no_augment,Group_2_rows_26_50,0.48,0.48,1.0
+ours_augmented,Group_3_rows_51_75,0.36,0.36,1.0
+sad_no_augment,Group_3_rows_51_75,0.6,0.6,1.0
+ours_augmented,Group_4_rows_76_100,0.68,0.68,1.0
+sad_no_augment,Group_4_rows_76_100,0.32,0.32,1.0
+ours_augmented,Group_5_rows_101_plus,0.61,0.61,1.0
+sad_no_augment,Group_5_rows_101_plus,0.36,0.36,1.0

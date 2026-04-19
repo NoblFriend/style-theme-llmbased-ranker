@@ -1,0 +1,89 @@
+column,group,mean_topic_rel,mean_style,mean_depth,mean_coherence,mean_score
+L::instruct,Overall,0.4653,0.417,0.1997,0.2535,0.2197
+L::sad_augmented_more,Overall,0.9167,0.726,0.5552,0.6694,0.6279
+L::style_instruct,Overall,0.75,0.4288,0.4444,0.3997,0.3782
+L::theme_instruct,Overall,0.6806,0.7278,0.3719,0.5858,0.463
+Q::instruct,Overall,0.9861,0.8059,0.6576,0.7903,0.7455
+Q::ours_augmented,Overall,0.7569,0.5431,0.449,0.4934,0.4383
+Q::style_instruct,Overall,0.4306,0.6649,0.2951,0.3781,0.2772
+Q::theme_instruct,Overall,0.8889,0.7156,0.5635,0.6868,0.6207
+L::instruct,"(1-25) Style, Theme",0.88,0.63,0.37,0.536,0.4973
+L::sad_augmented_more,"(1-25) Style, Theme",1.0,0.788,0.614,0.76,0.7207
+L::style_instruct,"(1-25) Style, Theme",0.96,0.66,0.572,0.654,0.6193
+L::theme_instruct,"(1-25) Style, Theme",1.0,0.808,0.552,0.756,0.7053
+Q::instruct,"(1-25) Style, Theme",1.0,0.846,0.676,0.82,0.7807
+Q::ours_augmented,"(1-25) Style, Theme",1.0,0.694,0.616,0.718,0.676
+Q::style_instruct,"(1-25) Style, Theme",0.88,0.8,0.612,0.764,0.6747
+Q::theme_instruct,"(1-25) Style, Theme",1.0,0.788,0.634,0.79,0.7373
+L::instruct,"(26-50) not Style, Theme",0.56,0.344,0.252,0.244,0.2227
+L::sad_augmented_more,"(26-50) not Style, Theme",0.96,0.706,0.548,0.67,0.6373
+L::style_instruct,"(26-50) not Style, Theme",1.0,0.302,0.566,0.41,0.426
+L::theme_instruct,"(26-50) not Style, Theme",0.96,0.758,0.538,0.722,0.6567
+Q::instruct,"(26-50) not Style, Theme",1.0,0.75,0.674,0.766,0.73
+Q::ours_augmented,"(26-50) not Style, Theme",1.0,0.478,0.604,0.564,0.5487
+Q::style_instruct,"(26-50) not Style, Theme",0.84,0.524,0.582,0.57,0.488
+Q::theme_instruct,"(26-50) not Style, Theme",1.0,0.636,0.656,0.684,0.6587
+L::instruct,"(51-75) Style, not Theme",0.24,0.398,0.112,0.152,0.1067
+L::sad_augmented_more,"(51-75) Style, not Theme",0.84,0.738,0.524,0.636,0.59
+L::style_instruct,"(51-75) Style, not Theme",0.32,0.508,0.18,0.272,0.1767
+L::theme_instruct,"(51-75) Style, not Theme",0.2,0.68,0.112,0.34,0.1453
+Q::instruct,"(51-75) Style, not Theme",0.96,0.828,0.65,0.804,0.7447
+Q::ours_augmented,"(51-75) Style, not Theme",0.28,0.63,0.184,0.364,0.176
+Q::style_instruct,"(51-75) Style, not Theme",0.0,0.756,0.0,0.18,0.0
+Q::theme_instruct,"(51-75) Style, not Theme",0.72,0.738,0.438,0.618,0.4947
+L::instruct,"(76-100) not Style, not Theme",0.44,0.388,0.192,0.234,0.198
+L::sad_augmented_more,"(76-100) not Style, not Theme",0.92,0.686,0.552,0.628,0.6053
+L::style_instruct,"(76-100) not Style, not Theme",0.88,0.318,0.526,0.402,0.3993
+L::theme_instruct,"(76-100) not Style, not Theme",0.56,0.7,0.318,0.554,0.3833
+Q::instruct,"(76-100) not Style, not Theme",1.0,0.794,0.68,0.8,0.758
+Q::ours_augmented,"(76-100) not Style, not Theme",0.92,0.4,0.556,0.47,0.4633
+Q::style_instruct,"(76-100) not Style, not Theme",0.32,0.602,0.22,0.31,0.1973
+Q::theme_instruct,"(76-100) not Style, not Theme",0.92,0.724,0.596,0.708,0.652
+L::instruct,(101+) General,0.3182,0.3648,0.1273,0.167,0.1367
+L::sad_augmented_more,(101+) General,0.8864,0.7182,0.5455,0.6602,0.6042
+L::style_instruct,(101+) General,0.6591,0.3875,0.4068,0.3205,0.3167
+L::theme_instruct,(101+) General,0.6818,0.708,0.3534,0.5693,0.4409
+Q::instruct,(101+) General,0.9773,0.8091,0.6295,0.7739,0.7277
+Q::ours_augmented,(101+) General,0.6591,0.5261,0.3557,0.4125,0.3754
+Q::style_instruct,(101+) General,0.25,0.6523,0.1625,0.2011,0.1345
+Q::theme_instruct,(101+) General,0.8409,0.7023,0.5239,0.6568,0.5867
+L::instruct,(1-50) Theme,0.72,0.487,0.311,0.39,0.36
+L::sad_augmented_more,(1-50) Theme,0.98,0.747,0.581,0.715,0.679
+L::style_instruct,(1-50) Theme,0.98,0.481,0.569,0.532,0.5227
+L::theme_instruct,(1-50) Theme,0.98,0.783,0.545,0.739,0.681
+Q::instruct,(1-50) Theme,1.0,0.798,0.675,0.793,0.7553
+Q::ours_augmented,(1-50) Theme,1.0,0.586,0.61,0.641,0.6123
+Q::style_instruct,(1-50) Theme,0.86,0.662,0.597,0.667,0.5813
+Q::theme_instruct,(1-50) Theme,1.0,0.712,0.645,0.737,0.698
+L::instruct,(51+) no Theme,0.3298,0.3798,0.1404,0.1809,0.145
+L::sad_augmented_more,(51+) no Theme,0.883,0.7149,0.5415,0.6452,0.6007
+L::style_instruct,(51+) no Theme,0.6277,0.4011,0.3782,0.3293,0.3014
+L::theme_instruct,(51+) no Theme,0.5213,0.6984,0.2798,0.5043,0.347
+Q::instruct,(51+) no Theme,0.9787,0.8101,0.6484,0.7888,0.7402
+Q::ours_augmented,(51+) no Theme,0.6277,0.5202,0.3633,0.4149,0.3457
+Q::style_instruct,(51+) no Theme,0.2021,0.6665,0.1346,0.2245,0.1154
+Q::theme_instruct,(51+) no Theme,0.8298,0.7176,0.5202,0.6601,0.5796
+L::instruct,"(76+) no Theme, no Style, General",0.3623,0.3732,0.1507,0.1913,0.1589
+L::sad_augmented_more,"(76+) no Theme, no Style, General",0.8986,0.7065,0.5478,0.6486,0.6046
+L::style_instruct,"(76+) no Theme, no Style, General",0.7391,0.3623,0.45,0.35,0.3466
+L::theme_instruct,"(76+) no Theme, no Style, General",0.6377,0.7051,0.3406,0.5638,0.42
+Q::instruct,"(76+) no Theme, no Style, General",0.9855,0.8036,0.6478,0.7833,0.7386
+Q::ours_augmented,"(76+) no Theme, no Style, General",0.7536,0.4804,0.4283,0.4333,0.4072
+Q::style_instruct,"(76+) no Theme, no Style, General",0.2754,0.6341,0.1833,0.2406,0.1572
+Q::theme_instruct,"(76+) no Theme, no Style, General",0.8696,0.7101,0.55,0.6754,0.6104
+L::instruct,"(1-25, 51-75) Style",0.56,0.514,0.241,0.344,0.302
+L::sad_augmented_more,"(1-25, 51-75) Style",0.92,0.763,0.569,0.698,0.6553
+L::style_instruct,"(1-25, 51-75) Style",0.64,0.584,0.376,0.463,0.398
+L::theme_instruct,"(1-25, 51-75) Style",0.6,0.744,0.332,0.548,0.4253
+Q::instruct,"(1-25, 51-75) Style",0.98,0.837,0.663,0.812,0.7627
+Q::ours_augmented,"(1-25, 51-75) Style",0.64,0.662,0.4,0.541,0.426
+Q::style_instruct,"(1-25, 51-75) Style",0.44,0.778,0.306,0.472,0.3373
+Q::theme_instruct,"(1-25, 51-75) Style",0.86,0.763,0.536,0.704,0.616
+L::instruct,"(26-50, 76-100) no Style",0.5,0.366,0.222,0.239,0.2103
+L::sad_augmented_more,"(26-50, 76-100) no Style",0.94,0.696,0.55,0.649,0.6213
+L::style_instruct,"(26-50, 76-100) no Style",0.94,0.31,0.546,0.406,0.4127
+L::theme_instruct,"(26-50, 76-100) no Style",0.76,0.729,0.428,0.638,0.52
+Q::instruct,"(26-50, 76-100) no Style",1.0,0.772,0.677,0.783,0.744
+Q::ours_augmented,"(26-50, 76-100) no Style",0.96,0.439,0.58,0.517,0.506
+Q::style_instruct,"(26-50, 76-100) no Style",0.58,0.563,0.401,0.44,0.3427
+Q::theme_instruct,"(26-50, 76-100) no Style",0.96,0.68,0.626,0.696,0.6553

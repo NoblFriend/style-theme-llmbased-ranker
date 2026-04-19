@@ -1,0 +1,21 @@
+model:
+  name: "Qwen/Qwen2.5-32B-Instruct"
+  device: "cuda:2" 
+  max_new_tokens: 512
+  # Qwen2.5 supports up to 128k, but we limit it here for safety/speed if needed. 
+  # This is mostly for the input context check if we implement it.
+  max_context_length: 32768 
+
+api:
+  # OpenAI-compatible endpoint base URL, usually ending with /v1
+  # Can be overridden by OPENAI_BASE_URL or --base-url.
+  base_url: ""
+  # Optional for local endpoints; can be overridden by OPENAI_API_KEY or --api-key.
+  api_key: ""
+  # Optional explicit model name for API calls. If empty, falls back to model.name.
+  model: ""
+  timeout_seconds: 120
+
+server:
+  host: "0.0.0.0"
+  port: 1337
