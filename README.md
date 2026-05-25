@@ -93,7 +93,26 @@ python src/run_openai_from_folder.py data/09_02_agit --mode ranking --topic astr
 python src/run_openai_from_folder.py data/09_02_agit --mode both --topic astrophysics --style melancholic
 ```
 
-## Опционально: серверный режим
+## Поднять локальный OpenAI-compatible сервер (vLLM)
+
+Если нужно поднять собственный endpoint, в который потом будет ходить pipeline:
+
+```bash
+python src/run_vllm_server.py
+```
+
+Скрипт читает `config.yaml` и берет оттуда:
+- `model.name` — что грузить в vLLM
+- `model.device` — GPU(ы); поддерживает `cuda`, `cuda:2`, `cuda:0,1`, `[0,1]`
+- `model.max_context_length` → `--max-model-len`
+- `server.host` / `server.port` — где слушать
+- `api.model` — имя модели в API (по умолчанию = `model.name`)
+
+После запуска endpoint доступен по `http://{host}:{port}/v1`. Этот URL кладем в `api.base_url`, и дальше работает `process_pipeline.py`.
+
+Полезные флаги: `--port`, `--gpu-memory-utilization 0.85`, `--dtype bfloat16`, `--extra ...` (доп. аргументы пробрасываются в `vllm serve`).
+
+## Опционально: старый серверный режим
 
 Старый серверный путь сохранен и находится в `src/rank_server.py`.
 
